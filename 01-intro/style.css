@@ -13,6 +13,8 @@ Para usar grid y sus propiedades debemos asignar al container el valor grid en s
 
     display: grid;
 
+COLUMNAS
+
 Para definir el no. y tamaño de las columnas del grid usamos la propiedad 
 
      grid-template-columns
@@ -21,7 +23,15 @@ Definimos el tamaño de cada columna separado por un epacio. Podriamos definir t
 
     grid-template-columns: 100px 200px 50px;
 
-Definimos el alto de las filas
+FILAS
+
+Para definir el no. y tamaño de las filas del grid usamos la propiedad
+
+     grid-template-rows
+
+Definimos el tamaño de cada fila separado por un epacio. Podriamos definir tantas finlas como necesitemos.
+
+    grid-template-rows: 100px 200px 100px 200px;
 */
 
 * {
