@@ -1,0 +1,43 @@
+/* 
+
+Auto rows y auto columns
+
+Controlan como se añade las filas y columnas en la grilla implicita es decir cuando no se añadieron implicitamente.
+
+grid-auto-rows: (valor);
+grid-auto-columns: (valor);
+
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    font-family: sans-serif;
+}
+
+.container {
+    padding: 12px;
+
+    display: grid;
+
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 12px;
+
+    grid-auto-rows: 200px;
+    grid-auto-flow: column
+    grid-auto-columns: 50px;
+
+    background-color: blanchedalmond;
+}
+
+.item {
+    background-color: brown;
+    text-align: center;
+}
